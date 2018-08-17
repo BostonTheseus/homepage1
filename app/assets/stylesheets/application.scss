@@ -58,7 +58,8 @@ body,html{
 		/*Center Brand*/
 		nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 			margin-left: 0px;
-			color: #D60818;
+			color: #d34294;
+			text-shadow: -1px 0 black, 0 0.4px black, 0.4px 0 black, 0 -1px black;
 		}
 		/*Center Brand*/
 		nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
@@ -100,7 +101,7 @@ body,html{
 			float: none;
 			width: auto;
 			margin-top: 0;
-			background-color: transparent;
+			background-color: #758181;
 			border: 0;
 			-webkit-box-shadow: none;
 			box-shadow: none;
@@ -113,7 +114,7 @@ body,html{
 
 		/*colors dropdown box text */
 		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-			color: #777;
+			color: #fffe8f;
 			height: auto;
 		}
 
@@ -125,7 +126,7 @@ body,html{
 			float: left;
 			z-index: 8000;
 			margin-bottom: 0px;
-			background-color: #E8FFFF;
+			background-color: #c6d5ea;
 		}
 
 		/*give sidebar 100% width;*/
@@ -135,7 +136,7 @@ body,html{
 
 		/* Move nav to full on mouse over*/
 		nav.sidebar:hover{
-			color: #701818;
+			color: #fffe8f;
 			margin-left: 0px;
 		}
 		/*for hiden things when navbar hidden*/
@@ -170,8 +171,12 @@ body,html{
 	}
 
 	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
-		color: #701818;
-		background-color: transparent;
+		/* color: #5f4e3e;*/
+		background-color: #ddc6a6;
+	}
+	
+	.open {
+	    background-color: #ddc6a6;
 	}
 	
 	a:hover {
@@ -179,7 +184,7 @@ body,html{
 	}
 
 	nav:hover .forAnimate{
-		color: #701818;
+		color: #ecdfd6;
 		opacity: 1;
 	}
 	section{
@@ -269,7 +274,9 @@ body,html{
   		color: red;
 	}
 	
-	ul.nav a:hover { color: #00ff55 !important; }
+	ul.nav a:hover { 
+		color: #283442 !important;
+	}
 	
 	/* Splurty logo */
 	.circle {
@@ -403,6 +410,10 @@ body,html{
 	
 	.previous:hover .next:hover {
 			text-decoration: none !important;
+	}
+	
+	.sidebar_color {
+		color: #fffe8f
 	}
 	
 	/*Drop-Up menu styles */
